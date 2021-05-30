@@ -15,7 +15,8 @@ public class Circunferencia {
 		System.out.println("Diámetro: " + 2 * radio);
 		System.out.println("Color: " + color);
 		calcularArea = 2 * PI * radio * radio;
-		System.out.println(calcularArea);
+		double D = calcularArea;
+		System.out.println(D);
 	}
 
 	public boolean esIgual(Circunferencia otro, boolean conDecimales) {
